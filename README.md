@@ -1,2 +1,3 @@
-# CIDM6330-Asignment2
-Assignment 2 - Units Tests and Repository
+# CIDM6330
+Assignments for 2024 Spring Software Engineering/System Development (**CIDM-6330-70**)
+Joshua Wu
