@@ -53,7 +53,7 @@ class BookmarkTests(APITestCase):
 
         response = self.client.get(self.list_url)
         self.assertTrue(status.is_success(response.status_code))
-        self.assertEqual(response.data[0]["title"], self.bookmark.title)
+        self.assertEqual(response.data[0]["title"], self.bookmark.title) #list indices must be integers or slices, not str
 
     # 3. retrieve a bookmark
     def test_retrieve_bookmark(self):
